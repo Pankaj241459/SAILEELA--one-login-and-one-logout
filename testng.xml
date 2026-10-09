@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      
+			<class name="SAILEELATESTCLASS.Createsection" />
+			<class name="SAILEELATESTCLASS.createcategory" />
+			<class name="SAILEELATESTCLASS.createitem" />
+			<class name="SAILEELATESTCLASS.Createportion" />
+			<class name="SAILEELATESTCLASS.createcustomer" />
+			<class name="SAILEELATESTCLASS.purchase" />
+			<class name="SAILEELATESTCLASS.stockinward" />
+			<class name="SAILEELATESTCLASS.checkinventorystockafterstockinward"/>  
+			<class name="SAILEELATESTCLASS.POSsell" />
+			<class name="SAILEELATESTCLASS.Dailysalesreport" />
+			<class name="SAILEELATESTCLASS.checkinventorystockaftersale" />
+			<class name="SAILEELATESTCLASS.purchasesettlement" />
+			<class name="SAILEELATESTCLASS.Customersettlement"/>
+			 <class name="SAILEELATESTCLASS.editmainreportadditem"/>
+			 <class name="SAILEELATESTCLASS.editmainreportdeleteitem"/>
+			<class name="SAILEELATESTCLASS.ExportItemsalereport"/>
+			<class name="SAILEELATESTCLASS.Recieptsummaryreport"/>
+			 <class name="SAILEELATESTCLASS.Exportcustomerdetailsreport"/>
+			<class name="SAILEELATESTCLASS.Exportinventoryreport"/>
+			 <class name="SAILEELATESTCLASS.Exportpurchasereport"/>
+			  <class name="SAILEELATESTCLASS.ExportGSTreport"/>
+			  <class name="SAILEELATESTCLASS.Createnewexpenses"/>
+			 <class name="SAILEELATESTCLASS.Exportexpensesreport"/>
+			<class name="SAILEELATESTCLASS.Deletebill"/>
+			<class name="SAILEELATESTCLASS.updateprofile"/>
+			  <class name="SAILEELATESTCLASS.Createinvoice"/>
+			    <class name="SAILEELATESTCLASS.Registerrole"/>
+			  <class name="SAILEELATESTCLASS.Registeruser"/>
+			   <class name="SAILEELATESTCLASS.changesinsetting"/>
+			   <class name="SAILEELATESTCLASS.Exportstaffwisereport"/>
+			 <class name="SAILEELATESTCLASS.Exportcustomerinvoicereport"/>
+			  <class name="SAILEELATESTCLASS.Exportsuppliewisereport"/>
+			  <class name="SAILEELATESTCLASS.Clearreportdata"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
